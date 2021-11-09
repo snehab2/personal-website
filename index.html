@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Change Title Here -->
+    <title>Sneha Bista</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a class="link" href="#about"
+          >Sneha Bista.</a>  <!--Change Name Here -->
+        
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#experience">Work Experience</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div id = "about" class="about">
+        <h1>Hi, I am <span class="about__name">Sneha Bista.</span></h1>  <!-- Change Name Here -->
+        <h2 class="about__role">Freshman at UTD.</h2> 
+        <div class="about__desc">
+          <div class="column">
+            <img class="profile-pic" src="tobor_profile_pic.jpeg"/>  <!-- Change Profile Picture Here -->
+          </div>
+          <div class="column text">  <!-- Change Description Here -->
+            <p>
+              UT Dallas Dining (Chartwells) partnered with Starship Technologies
+              to bring 30 robots to campus for the initial launch on December 3
+              2019. Starship is revolutionizing deliveries with autonomous
+              robots. The robots have traveled thousands of miles across 100
+              cities around the world and we are so excited to help our partner
+              bring this exciting new convenience to the campus community.
+            </p>
+            <br></br>
+            <h5>Education: </h5> <p>University of Texas at Dallas</p>
+            <h5>Courses: </h5>  <!-- Change Courses Here -->
+            <p>Data Structures, Advanced Algorithms, Probability, and Statistics, Linear Algebra, CS I and CS II, and Computer Architecture</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title about__name">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Project 1</h3>
+            <p class="project__description"> <!-- Change Projects Description here -->
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            > Check out my project! <!--Enter link to project-->
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Project 2</h3>
+            <p class="project__description"> <!-- Change Projects Description here -->
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Project 3</h3>
+            <p class="project__description"> <!-- Change Projects Description here -->
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title about__name">Skills</h2> 
+        <ul class="skills__list"> <!-- Change Skills here -->
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">SCSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">TypeScript</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">Redux</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">Material UI</li>
+          <li class="skills__list-item btn btn--plain">Jest</li>
+          <li class="skills__list-item btn btn--plain">Enzyme</li>
+          <li class="skills__list-item btn btn--plain">CI/CD</li>
+        </ul>
+      </section>
+
+      <section class="section experience center">
+        <h2 class="section__title about__name">Work Experience</h2>
+        <div id="experience" class="background-alt">
+          <div id="experience-timeline">
+            <div
+              data-date="September 2015 – September 2016"
+              class="experience_gap"
+            >
+            <!-- Change Work Experience Description here -->
+              <h3>Employer Name</h3>
+              <h4>Job Title</h4>
+              <p> 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut
+                tortor nec nulla commodo malesuada sit amet vel lacus. Fusce
+                eget efficitur libero. Morbi dapibus porta quam laoreet
+                placerat.
+              </p>
+            </div>
+
+            <div
+              data-date="September 2015 – September 2016"
+              class="experience_gap"
+            >
+            <!-- Change Work Experience Description here -->
+              <h3>Employer Name</h3>
+              <h4>Job Title</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut
+                tortor nec nulla commodo malesuada sit amet vel lacus. Fusce
+                eget efficitur libero. Morbi dapibus porta quam laoreet
+                placerat.
+              </p>
+            </div>
+
+            <div
+              data-date="September 2015 – September 2016"
+              class="experience_gap"
+            >
+            <!-- Change Work Experience Description here -->
+              <h3>Employer Name</h3>
+              <h4>Job Title</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut
+                tortor nec nulla commodo malesuada sit amet vel lacus. Fusce
+                eget efficitur libero. Morbi dapibus porta quam laoreet
+                placerat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <div class="contact center" id="contact">
+        <h2 class="section__title about__name">Contact</h2>
+
+        <div class="socials center">
+          <!-- Change Link to Resume here -->
+          <a href="https://example.com">
+            <span class="btn btn--outline socials">Resume</span>
+          </a>
+
+          <!-- Change Link to Github here -->
+          <a
+            href="https://github.com/snehab2"
+          > <span class="btn btn--outline socials ">github</span> 
+          </a>
+
+          <!-- Change link to LinkedIn here -->
+          <a
+            href="https://www.linkedin.com/"> <span class="btn btn--outline socials">linkedin</span> 
+          </a>
+        </div>
+      </div>
+
+
+    </main>
+
+    <footer class="footer">
+      <a
+        class="link footer__link"
+      >  <!-- Change Footer Name here -->
+        Created By Sneha Bista
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top"> ↑ </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
